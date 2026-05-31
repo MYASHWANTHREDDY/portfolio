@@ -36,9 +36,6 @@ export default function Projects() {
             variants={fadeUp}
             className="bg-card border border-border rounded-2xl p-7 flex flex-col hover:border-accent/50 transition-all duration-200 hover:shadow-2xl hover:shadow-accent/15 group"
           >
-            {/* Screenshot carousel — only appears if project has screenshots */}
-            <ProjectCarousel screenshots={project.screenshots} />
-
             {/* Header */}
             <div className="flex items-start justify-between gap-3 mb-5">
               <div>
@@ -93,6 +90,9 @@ export default function Projects() {
                 ))}
               </div>
             )}
+
+            {/* Screenshot carousel — only appears if project has screenshots */}
+            <ProjectCarousel screenshots={project.screenshots} />
 
             {/* Tech tags */}
             <div className="flex flex-wrap gap-2 pt-4 border-t border-border">
