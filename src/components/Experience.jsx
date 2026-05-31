@@ -55,7 +55,7 @@ export default function Experience() {
                   <ul className="flex flex-col gap-2">
                     {job.bullets.map((b, i) => (
                       <li key={i} className="flex gap-2 text-textSecondary text-sm leading-relaxed">
-                        <span className="text-accent mt-1 shrink-0">â–¹</span>
+                        <span className="text-accent mt-1 shrink-0">▹</span>
                         {b}
                       </li>
                     ))}
