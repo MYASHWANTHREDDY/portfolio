@@ -7,6 +7,7 @@ export const personal = {
   github: 'https://github.com/MYASHWANTHREDDY',
   linkedin: 'https://linkedin.com/in/yashwanthreddymallareddygari',
   titles: ['Full Stack Developer', 'Software Engineer', 'Backend Engineer'],
+  tagline: "MS CS grad · Full Stack Developer · Open to work — building systems that actually ship.",
   bio: "MS CS graduate from Cal State Fullerton with a passion for building scalable full-stack applications. I've shipped production systems serving 100+ users — from constraint-optimization scheduling platforms to full-stack club management tools — and I'm actively looking for software engineering roles where I can keep solving hard problems. Outside the terminal, I'm tuning my Kawasaki Ninja 300 — same obsession with performance, different throttle.",
 }
 

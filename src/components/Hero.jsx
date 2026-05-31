@@ -111,7 +111,7 @@ export default function Hero() {
         </div>
 
         <p className="text-textSecondary text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          {personal.bio}
+          {personal.tagline}
         </p>
 
         {/* CTA buttons */}
