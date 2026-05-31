@@ -62,10 +62,13 @@ export const projects = [
       'Designed role-based React dashboards for 100+ users and deployed containerized services via Docker, Alembic migrations, and AWS EC2.',
     ],
     screenshots: [
+      '/screenshots/01-login.png',
       '/screenshots/02-admin-dashboard.png',
       '/screenshots/03-shifts-calendar.png',
       '/screenshots/04-schedule-generator.png',
       '/screenshots/05-employee-profile.png',
+      '/screenshots/06-timesheet-validation.png',
+      '/screenshots/07-optimization-constraints.png',
     ],
     stats: [
       { value: '60%', label: 'Workload Reduced' },
@@ -95,7 +98,7 @@ export const projects = [
   },
   {
     title: 'Real-Time E-Commerce Data Pipeline',
-    dates: '2025',
+    dates: 'April2025',
     description: [
       'Built a real-time data pipeline ingesting e-commerce event streams (orders, inventory, user behavior) using Apache Kafka and PySpark Structured Streaming.',
       'Processed and aggregated events into a PostgreSQL data warehouse, enabling downstream analytics dashboards with sub-second latency.',
