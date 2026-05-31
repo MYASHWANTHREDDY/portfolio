@@ -1,5 +1,5 @@
 export const personal = {
-  name: 'Yashwanth Reddy',
+  name: 'Yashwanth Mallareddygari',
   fullName: 'Yashwanth Reddy Mallareddygari',
   email: 'yashwanthmallareddygari@gmail.com',
   phone: '+1 (657) 631 1232',
@@ -7,7 +7,11 @@ export const personal = {
   github: 'https://github.com/MYASHWANTHREDDY',
   linkedin: 'https://linkedin.com/in/yashwanthreddymallareddygari',
   titles: ['Full Stack Developer', 'Software Engineer', 'Backend Engineer'],
-  tagline: "MS CS grad · Full Stack Developer · Open to work — building systems that actually ship.",
+  tagline: [
+    "Full-stack engineer with an MS in Computer Science from Cal State Fullerton.",
+    "I build production systems — scheduling platforms, full-stack web apps, real-time data pipelines — that ship to real users.",
+    "Actively seeking SWE roles. Off-hours: wrenching on a Kawasaki Ninja 300.",
+  ],
   bio: "MS CS graduate from Cal State Fullerton with a passion for building scalable full-stack applications. I've shipped production systems serving 100+ users — from constraint-optimization scheduling platforms to full-stack club management tools — and I'm actively looking for software engineering roles where I can keep solving hard problems. Outside the terminal, I'm tuning my Kawasaki Ninja 300 — same obsession with performance, different throttle.",
 }
 

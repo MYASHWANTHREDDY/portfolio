@@ -110,9 +110,11 @@ export default function Hero() {
           </span>
         </div>
 
-        <p className="text-textSecondary text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          {personal.tagline}
-        </p>
+        <div className="text-textSecondary text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed flex flex-col gap-2">
+          {personal.tagline.map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
 
         {/* CTA buttons */}
         <div className="flex flex-wrap gap-3 justify-center mb-10">
