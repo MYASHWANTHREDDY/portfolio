@@ -61,6 +61,12 @@ export const projects = [
       'Implemented constraint-based optimization and automated timesheet validation, achieving 95%+ schedule feasibility versus 60% with manual scheduling.',
       'Designed role-based React dashboards for 100+ users and deployed containerized services via Docker, Alembic migrations, and AWS EC2.',
     ],
+    screenshots: [
+      '/screenshots/02-admin-dashboard.png',
+      '/screenshots/03-shifts-calendar.png',
+      '/screenshots/04-schedule-generator.png',
+      '/screenshots/05-employee-profile.png',
+    ],
     stats: [
       { value: '60%', label: 'Workload Reduced' },
       { value: '95%+', label: 'Schedule Feasibility' },
@@ -86,6 +92,17 @@ export const projects = [
     tech: ['React 19', 'Vite', 'Tailwind CSS', 'Express.js', 'Node.js', 'JWT', 'Docker', 'GitHub Actions', 'Vercel', 'Railway'],
     github: 'https://github.com/MYASHWANTHREDDY/HINDU-YUVA',
     live: 'https://hindu-yuva-lovat.vercel.app/',
+  },
+  {
+    title: 'Real-Time E-Commerce Data Pipeline',
+    dates: '2025',
+    description: [
+      'Built a real-time data pipeline ingesting e-commerce event streams (orders, inventory, user behavior) using Apache Kafka and PySpark Structured Streaming.',
+      'Processed and aggregated events into a PostgreSQL data warehouse, enabling downstream analytics dashboards with sub-second latency.',
+      'Containerized all pipeline components with Docker Compose and automated orchestration with Apache Airflow for scheduled batch jobs.',
+    ],
+    tech: ['Apache Kafka', 'PySpark', 'PostgreSQL', 'Docker', 'Airflow', 'Python'],
+    github: 'https://github.com/MYASHWANTHREDDY/Real-Time-Ecommerce-Data-Pipeline',
   },
 ]
 
@@ -114,19 +131,22 @@ export const experience = [
 
 export const leadership = [
   {
-    role: 'Board of Director – College of ECS',
-    org: 'Associated Students, Inc, CSUF',
+    role: 'Board of Directors – College of Engineering & Computer Science',
+    org: 'Associated Students, Inc. (ASI), CSUF',
     dates: 'Jun 2025 – Present',
+    detail: null,
   },
   {
     role: 'Events Chair',
     org: 'Association for Intercultural Awareness (AICA), ASI, CSUF',
     dates: 'Aug 2024 – May 2025',
+    detail: 'Managed a $35K event budget across 10+ intercultural events.',
   },
   {
     role: 'President',
     org: 'Hindu Yuva at CSUF',
     dates: 'Jun 2024 – May 2025',
+    detail: 'Grew organization 100%, managed $20K annual budget. Tuffy Award — President of the Year 2025.',
   },
 ]
 

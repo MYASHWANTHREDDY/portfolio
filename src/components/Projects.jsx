@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import { projects } from '../data/portfolioData'
+import ProjectCarousel from './ProjectCarousel'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -13,7 +14,7 @@ export default function Projects() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: '-80px' }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
         className="text-center mb-14"
       >
@@ -25,16 +26,19 @@ export default function Projects() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: '-80px' }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
-        className="grid md:grid-cols-2 gap-8"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start"
       >
         {projects.map((project) => (
           <motion.div
             key={project.title}
             variants={fadeUp}
-            className="bg-card border border-border rounded-2xl p-7 flex flex-col hover:border-accent/50 transition-all duration-200 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/15 group"
+            className="bg-card border border-border rounded-2xl p-7 flex flex-col hover:border-accent/50 transition-all duration-200 hover:shadow-2xl hover:shadow-accent/15 group"
           >
+            {/* Screenshot carousel — only appears if project has screenshots */}
+            <ProjectCarousel screenshots={project.screenshots} />
+
             {/* Header */}
             <div className="flex items-start justify-between gap-3 mb-5">
               <div>

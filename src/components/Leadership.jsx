@@ -13,7 +13,7 @@ export default function Leadership() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: '-80px' }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
         className="text-center mb-14"
       >
@@ -27,7 +27,7 @@ export default function Leadership() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-80px' }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
         >
           <h3 className="flex items-center gap-2 text-textPrimary font-semibold text-lg mb-5">
@@ -44,6 +44,9 @@ export default function Leadership() {
                 <p className="text-textPrimary font-semibold text-sm">{item.role}</p>
                 <p className="text-accent text-xs mt-0.5">{item.org}</p>
                 <p className="text-textSecondary text-xs mt-2 font-medium">{item.dates}</p>
+                {item.detail && (
+                  <p className="text-textSecondary text-xs mt-2 leading-relaxed border-t border-border pt-2">{item.detail}</p>
+                )}
               </motion.div>
             ))}
           </div>
@@ -53,7 +56,7 @@ export default function Leadership() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-80px' }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
         >
           <h3 className="flex items-center gap-2 text-textPrimary font-semibold text-lg mb-5">

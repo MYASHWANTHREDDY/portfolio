@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { FiBriefcase } from 'react-icons/fi'
 import { experience } from '../data/portfolioData'
 
@@ -14,7 +14,7 @@ export default function Experience() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-80px' }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={fadeUp}
           className="text-center mb-14"
         >
@@ -30,7 +30,7 @@ export default function Experience() {
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, margin: '-80px' }}
+            viewport={{ once: true, amount: 0.1 }}
             variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
             className="flex flex-col gap-10"
           >
@@ -55,7 +55,7 @@ export default function Experience() {
                   <ul className="flex flex-col gap-2">
                     {job.bullets.map((b, i) => (
                       <li key={i} className="flex gap-2 text-textSecondary text-sm leading-relaxed">
-                        <span className="text-accent mt-1 shrink-0">▹</span>
+                        <span className="text-accent mt-1 shrink-0">â–¹</span>
                         {b}
                       </li>
                     ))}
@@ -69,3 +69,4 @@ export default function Experience() {
     </section>
   )
 }
+

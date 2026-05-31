@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { FiMapPin, FiMail } from 'react-icons/fi'
 import { personal, education } from '../data/portfolioData'
 
@@ -13,7 +13,7 @@ export default function About() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: '-80px' }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
         className="text-center mb-14"
       >
@@ -38,7 +38,7 @@ export default function About() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: '-80px' }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={{ visible: { transition: { staggerChildren: 0.15 } } }}
         className="grid md:grid-cols-2 gap-6"
       >
@@ -80,3 +80,4 @@ export default function About() {
     </section>
   )
 }
+
