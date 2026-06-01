@@ -141,14 +141,14 @@ export const leadership = [
   {
     role: 'Board of Directors – College of Engineering & Computer Science',
     org: 'Associated Students, Inc. (ASI), CSUF',
-    dates: 'Jun 2025 – Present',
-    detail: null,
+    dates: 'Jun 2025 – May 2026',
+    detail: 'Served on the student government board representing 6,000+ Engineering & Computer Science students, advocating for academic resources, student initiatives, and departmental policy at the university level.',
   },
   {
     role: 'Events Chair',
     org: 'Association for Intercultural Awareness (AICA), ASI, CSUF',
     dates: 'Aug 2024 – May 2025',
-    detail: 'Managed a $35K event budget across 10+ intercultural events.',
+    detail: 'Managed a $35K event budget across 5+ intercultural events.',
   },
   {
     role: 'President',
