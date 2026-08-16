@@ -41,8 +41,12 @@ export default function Hero() {
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 40)
     } else if (deleting && displayed.length === 0) {
-      setDeleting(false)
-      setTitleIndex((i) => (i + 1) % personal.titles.length)
+      // Deferred like the branches above — setting state synchronously here
+      // would cascade an extra render on every word change.
+      timeout = setTimeout(() => {
+        setDeleting(false)
+        setTitleIndex((i) => (i + 1) % personal.titles.length)
+      }, 0)
     }
 
     return () => clearTimeout(timeout)
