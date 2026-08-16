@@ -64,7 +64,7 @@ export default function Contact() {
           <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-6" />
           <p className="text-textSecondary text-base leading-relaxed max-w-xl mx-auto">
             I'm actively looking for full-time software engineering roles. Whether you have an
-            opportunity, a question, or just want to say hi â€” my inbox is open.
+            opportunity, a question, or just want to say hi — my inbox is open.
           </p>
         </motion.div>
 
@@ -107,7 +107,7 @@ export default function Contact() {
           variants={fadeUp}
           className="text-center text-textSecondary text-xs mt-16"
         >
-          Built with React + Vite + Tailwind CSS Â· {new Date().getFullYear()} Yashwanth Reddy
+          Built with React + Vite + Tailwind CSS · {new Date().getFullYear()} Yashwanth Reddy
         </motion.p>
       </div>
     </section>
