@@ -3,7 +3,7 @@ export const personal = {
   fullName: 'Yashwanth Reddy Mallareddygari',
   email: 'yashwanthmallareddygari@gmail.com',
   phone: '+1 (657) 631 1232',
-  location: 'Fullerton, CA',
+  location: 'Dallas–Fort Worth Metroplex, TX',
   github: 'https://github.com/MYASHWANTHREDDY',
   linkedin: 'https://linkedin.com/in/yashwanthreddymallareddygari',
   titles: ['Software Engineer', 'AI & LLM Engineer', 'Data Engineer', 'Full Stack Developer'],
@@ -49,7 +49,7 @@ export const skills = [
   },
   {
     category: 'Backend & APIs',
-    items: ['Flask', 'FastAPI', 'Node.js', 'Express.js', 'REST APIs', 'SQLAlchemy', 'Alembic', 'JWT', 'RBAC'],
+    items: ['Flask', 'FastAPI', 'Spring Boot', 'Node.js', 'Express.js', 'REST APIs', 'SQLAlchemy', 'Alembic', 'JWT', 'RBAC'],
   },
   {
     category: 'Frontend & Mobile',
@@ -61,7 +61,7 @@ export const skills = [
   },
   {
     category: 'Cloud & DevOps',
-    items: ['GCP', 'Dataproc Serverless', 'AWS EC2', 'AWS RDS', 'Docker', 'Docker Compose', 'Terraform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
+    items: ['GCP', 'Cloud Composer', 'Dataproc Serverless', 'AWS EC2', 'AWS RDS', 'Docker', 'Docker Compose', 'Terraform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
   },
   {
     category: 'Testing & Observability',
@@ -207,23 +207,38 @@ export const projects = [
 
 export const experience = [
   {
-    title: 'Software & Operations Intern',
-    company: 'Star Lifts India',
-    dates: 'Jan 2023 – Nov 2023',
+    title: 'AI & Full-Stack Development Intern',
+    company: 'TMT IT Solutions',
+    location: 'Plano, TX',
+    dates: 'Jul 2026 – Present',
     bullets: [
-      'Developed and maintained a responsive company website using HTML, CSS, JavaScript, Bootstrap, REST integrations, and SEO practices — increasing customer inquiries by 30%.',
-      'Implemented a Python/Flask accounting and inventory system with SQLite, REST APIs, and role-based access control, reducing manual processing by 40% and saving 10+ hours weekly.',
-      'Supported client and operations management through requirement gathering, communication, service coordination, and on-site visits to tailor software to real-world needs.',
+      'Design and automate data workflows using BigQuery, Cloud Composer, and Cloud Storage, transforming raw multi-vendor healthcare data into standardized, governance-compliant structures.',
+      'Develop Apache Airflow DAGs orchestrating production ETL pipelines, managing dependencies, scheduling, and failure monitoring across membership, pharmacy, medical, and lab data domains.',
+      'Support backend development in Java and Spring Boot; build internal interfaces and data visualizations with HTML, CSS, JavaScript, and Streamlit.',
+      'Conduct structured testing, validation, and root-cause analysis, writing reconciliation queries that catch data quality defects before release.',
+      'Collaborate through Git branching and pull-request workflows in an agile team.',
     ],
   },
   {
     title: 'Community Service Officer',
     company: 'University Police Department, CSUF',
+    location: 'Fullerton, CA',
     dates: 'Aug 2024 – Present',
     bullets: [
       'Conduct 15+ patrols weekly and perform 50+ lockups/escorts monthly, supporting emergency response and enforcing campus safety protocols.',
       'Collaborate on 20+ emergency operations annually, coordinating with teams to support a 45,000+ student community with zero incident escalations.',
       'Document incidents, manage access control, and communicate with students and staff to resolve issues.',
+    ],
+  },
+  {
+    title: 'Software & Operations Intern',
+    company: 'Star Lifts India',
+    location: 'India',
+    dates: 'Jan 2023 – Nov 2023',
+    bullets: [
+      'Developed and maintained a responsive company website using HTML, CSS, JavaScript, Bootstrap, REST integrations, and SEO practices — increasing customer inquiries by 30%.',
+      'Implemented a Python/Flask accounting and inventory system with SQLite, REST APIs, and role-based access control, reducing manual processing by 40% and saving 10+ hours weekly.',
+      'Supported client and operations management through requirement gathering, communication, service coordination, and on-site visits to tailor software to real-world needs.',
     ],
   },
 ]

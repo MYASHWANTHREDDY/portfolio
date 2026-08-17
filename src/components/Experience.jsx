@@ -44,8 +44,13 @@ export default function Experience() {
                 <div className="bg-card border border-border rounded-2xl p-6 hover:border-accent/50 transition-colors">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
                     <div>
-                      <h3 className="text-textPrimary font-bold text-lg">{job.title}</h3>
-                      <p className="text-accent font-medium text-sm">{job.company}</p>
+                      <h3 className="font-display text-textPrimary font-semibold text-lg">{job.title}</h3>
+                      <p className="text-accent font-medium text-sm">
+                        {job.company}
+                        {job.location && (
+                          <span className="text-textSecondary font-normal"> · {job.location}</span>
+                        )}
+                      </p>
                     </div>
                     <span className="text-textSecondary text-xs font-medium whitespace-nowrap bg-bg px-3 py-1.5 rounded-full border border-border self-start">
                       {job.dates}
