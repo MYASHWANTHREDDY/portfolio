@@ -50,8 +50,11 @@ export default function About() {
           >
             <div className="flex items-start justify-between gap-4 mb-4">
               <div>
-                <h3 className="text-textPrimary font-bold text-lg">{edu.shortName}</h3>
+                <h3 className="font-display text-textPrimary font-semibold text-lg">{edu.shortName}</h3>
                 <p className="text-textSecondary text-sm">{edu.school}</p>
+                {edu.location && (
+                  <p className="text-textSecondary/70 text-xs mt-0.5">{edu.location}</p>
+                )}
               </div>
               <span className="text-textSecondary text-xs font-medium whitespace-nowrap bg-bg px-3 py-1 rounded-full border border-border">
                 {edu.date}

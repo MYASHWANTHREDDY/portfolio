@@ -12,13 +12,14 @@ export const personal = {
     "I build systems that hold up under measurement — LLM agents, healthcare data infrastructure at multi-million-record scale, and constraint optimizers that ship to real users.",
     "Actively seeking full-time SWE roles.",
   ],
-  bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP for $78, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver serving 100+ users. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
+  bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP for $78, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver for 50+ staff. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
 }
 
 export const education = [
   {
     school: 'California State University, Fullerton',
     shortName: 'CSUF',
+    location: 'Fullerton, CA, USA',
     degree: 'Master of Science in Computer Science',
     gpa: '3.77',
     date: 'May 2026',
@@ -27,6 +28,7 @@ export const education = [
   {
     school: 'Jawaharlal Nehru Technological University',
     shortName: 'JNTU Hyderabad',
+    location: 'Hyderabad, India',
     degree: 'Bachelor of Technology in Computer Science',
     gpa: '3.3',
     date: 'May 2023',
@@ -163,9 +165,9 @@ export const projects = [
     dates: 'Aug 2025 – May 2026',
     summary: "OR-Tools CP-SAT scheduling that replaced 10+ hours of spreadsheet work with a 30-second solve.",
     description: [
-      'Built a constraint-optimization scheduling platform with OR-Tools CP-SAT, Flask, and PostgreSQL — cutting schedule generation from 10+ hours of manual spreadsheet work to under 30 seconds.',
-      'Encoded availability, certification, and labor policy as hard constraints, reaching 95%+ schedule feasibility with zero constraint violations, plus an audited swap and timesheet workflow.',
-      'Shipped role-based supervisor and staff interfaces for 100+ users through a React Native/Expo mobile app, deployed as containerized services with Docker, Alembic migrations, and AWS EC2.',
+      'Built a constraint-optimization scheduling platform with OR-Tools CP-SAT, Flask, and PostgreSQL for 50+ student staff — cutting schedule generation from 10+ hours of manual spreadsheet work to under 30 seconds.',
+      'Encoded availability, certification, and labor policy as hard constraints, lifting schedule feasibility from ~70% to 95%+ with zero constraint violations and cutting supervisor scheduling effort by ~60%.',
+      'Shipped supervisor and staff workflows — availability, swap requests, approvals, and a full audit log — through a React Native/Expo mobile app, deployed on Render with Docker Compose and GitHub Actions.',
     ],
     screenshots: [
       '/screenshots/01-login.png',
@@ -178,10 +180,10 @@ export const projects = [
     ],
     stats: [
       { value: '30s', label: 'Generation Time' },
-      { value: '95%+', label: 'Schedule Feasibility' },
-      { value: '100+', label: 'Users Served' },
+      { value: '95%+', label: 'Feasibility, from ~70%' },
+      { value: '~60%', label: 'Less Supervisor Effort' },
     ],
-    tech: ['OR-Tools CP-SAT', 'Flask', 'PostgreSQL', 'React Native', 'Expo', 'Docker', 'AWS EC2', 'Alembic'],
+    tech: ['OR-Tools CP-SAT', 'Flask', 'SQLAlchemy', 'Alembic', 'PostgreSQL', 'React Native', 'Expo', 'Docker Compose', 'Render', 'GitHub Actions'],
     github: 'https://github.com/MYASHWANTHREDDY/csuf-scheduler',
     live: 'https://csuf-scheduler.onrender.com/',
   },
@@ -223,7 +225,7 @@ export const experience = [
     title: 'Community Service Officer',
     company: 'University Police Department, CSUF',
     location: 'Fullerton, CA',
-    dates: 'Aug 2024 – Present',
+    dates: 'Aug 2024 – May 2026',
     bullets: [
       'Conduct 15+ patrols weekly and perform 50+ lockups/escorts monthly, supporting emergency response and enforcing campus safety protocols.',
       'Collaborate on 20+ emergency operations annually, coordinating with teams to support a 45,000+ student community with zero incident escalations.',
