@@ -8,8 +8,8 @@
   }
 
   body {
-    background-color: #0f172a;
-    color: #f1f5f9;
+    background-color: #0c0a09;
+    color: #f6f1e9;
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
@@ -22,21 +22,24 @@
 }
 
 @layer utilities {
+  /* Flat ink, not a gradient — the signal hue carries it on its own. */
   .gradient-text {
-    background: linear-gradient(135deg, #6366f1, #38bdf8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #f0b429;
   }
 
   .glass {
-    background: rgba(30, 41, 59, 0.8);
+    background: rgba(21, 18, 15, 0.82);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .section-heading {
-    @apply text-3xl md:text-4xl font-bold text-textPrimary mb-2;
+    @apply font-display text-3xl md:text-4xl font-semibold tracking-tight text-textPrimary mb-3;
+  }
+
+  /* Hairline that replaced the 16px accent bar under every section heading. */
+  .section-rule {
+    @apply w-10 h-px bg-accent/50 mb-5;
   }
 
   .section-subheading {

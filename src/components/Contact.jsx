@@ -61,7 +61,7 @@ export default function Contact() {
           className="text-center mb-14"
         >
           <h2 className="section-heading">Let's Connect</h2>
-          <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-6" />
+          <div className="section-rule mx-auto" />
           <p className="text-textSecondary text-base leading-relaxed max-w-xl mx-auto">
             I'm actively looking for full-time software engineering roles. Whether you have an
             opportunity, a question, or just want to say hi — my inbox is open.

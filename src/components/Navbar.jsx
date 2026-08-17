@@ -48,7 +48,7 @@ export default function Navbar() {
             <a
               href="/Yashwanth_Reddy_Resume.pdf"
               download
-              className="px-4 py-2 text-sm font-semibold rounded-lg bg-accent hover:bg-indigo-400 hover:scale-105 active:scale-95 text-white transition-all duration-150"
+              className="px-4 py-2 text-sm font-semibold rounded-lg bg-accent hover:bg-accent/85 hover:scale-105 active:scale-95 text-bg transition-all duration-150"
             >
               Resume
             </a>
@@ -80,7 +80,7 @@ export default function Navbar() {
           <a
             href="/Yashwanth_Reddy_Resume.pdf"
             download
-            className="w-fit px-4 py-2 text-sm font-semibold rounded-lg bg-accent hover:bg-indigo-400 text-white transition-colors"
+            className="w-fit px-4 py-2 text-sm font-semibold rounded-lg bg-accent hover:bg-accent/85 text-bg transition-colors"
           >
             Resume
           </a>

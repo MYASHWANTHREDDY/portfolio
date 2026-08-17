@@ -19,7 +19,7 @@ export default function Experience() {
           className="text-center mb-14"
         >
           <h2 className="section-heading">Experience</h2>
-          <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-4" />
+          <div className="section-rule mx-auto" />
           <p className="text-textSecondary">Where I've worked</p>
         </motion.div>
 

@@ -61,7 +61,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: 'radial-gradient(circle, rgba(99,102,241,0.18) 1px, transparent 1px)',
+          backgroundImage: 'radial-gradient(circle, rgba(240,180,41,0.14) 1px, transparent 1px)',
           backgroundSize: '32px 32px',
         }}
       />
@@ -77,8 +77,8 @@ export default function Hero() {
               top: `${p.y}%`,
               width: p.size,
               height: p.size,
-              background: i % 3 === 0 ? '#38bdf8' : '#6366f1',
-              boxShadow: `0 0 ${p.size * 4}px ${p.size * 2}px ${i % 3 === 0 ? 'rgba(56,189,248,0.4)' : 'rgba(99,102,241,0.4)'}`,
+              background: i % 3 === 0 ? '#e08b3a' : '#f0b429',
+              boxShadow: `0 0 ${p.size * 4}px ${p.size * 2}px ${i % 3 === 0 ? 'rgba(224,139,58,0.35)' : 'rgba(240,180,41,0.35)'}`,
             }}
             animate={{ y: [-10, 10, -10], opacity: [0.4, 0.9, 0.4] }}
             transition={{ duration: p.dur, delay: p.delay, repeat: Infinity, ease: 'easeInOut' }}
@@ -102,7 +102,7 @@ export default function Hero() {
           Hi, I'm
         </p>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold gradient-text mb-6 leading-tight">
+        <h1 className="font-display text-5xl md:text-7xl font-semibold tracking-tight text-textPrimary mb-6 leading-tight">
           {personal.name}
         </h1>
 
@@ -124,14 +124,14 @@ export default function Hero() {
         <div className="flex flex-wrap gap-3 justify-center mb-10">
           <button
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-6 py-3 bg-accent hover:bg-indigo-400 active:scale-95 text-white font-semibold rounded-xl transition-all duration-150 hover:scale-105 shadow-lg shadow-accent/25"
+            className="px-6 py-3 bg-accent hover:bg-accent/85 active:scale-95 text-bg font-semibold rounded-xl transition-all duration-150 hover:scale-105 shadow-lg shadow-accent/25"
           >
             View Projects
           </button>
           <a
             href="/Yashwanth_Reddy_Resume.pdf"
             download
-            className="px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-white font-semibold rounded-xl transition-all hover:scale-105"
+            className="px-6 py-3 border border-accent/60 text-accent hover:bg-accent hover:text-bg font-semibold rounded-xl transition-all hover:scale-105"
           >
             Download Resume
           </a>
@@ -139,7 +139,7 @@ export default function Hero() {
             href={personal.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 border border-border text-textSecondary hover:border-sky hover:text-sky font-semibold rounded-xl transition-all hover:scale-105 flex items-center gap-2"
+            className="px-6 py-3 border border-border text-textSecondary hover:border-accent/60 hover:text-accent font-semibold rounded-xl transition-all hover:scale-105 flex items-center gap-2"
           >
             <FiLinkedin size={18} /> LinkedIn
           </a>

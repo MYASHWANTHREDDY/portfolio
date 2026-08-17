@@ -2,11 +2,13 @@
 import { skills } from '../data/portfolioData'
 
 const categoryColors = {
-  Languages: 'border-indigo-500/40 text-indigo-300',
-  Frontend: 'border-sky-500/40 text-sky-300',
+  Languages: 'border-amber-500/40 text-amber-300',
+  Frontend: 'border-sky-500/50 text-sky-400',
   'Backend & APIs': 'border-emerald-500/40 text-emerald-300',
+  'AI & LLM Systems': 'border-fuchsia-500/40 text-fuchsia-300',
+  'Data Engineering': 'border-purple-500/40 text-purple-300',
   'Databases & Cloud': 'border-orange-500/40 text-orange-300',
-  'Data & Tools': 'border-purple-500/40 text-purple-300',
+  'Tools & Testing': 'border-teal-500/40 text-teal-300',
 }
 
 const fadeUp = {
@@ -26,7 +28,7 @@ export default function Skills() {
           className="text-center mb-14"
         >
           <h2 className="section-heading">Technical Skills</h2>
-          <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-4" />
+          <div className="section-rule mx-auto" />
           <p className="text-textSecondary">Technologies I work with</p>
         </motion.div>
 
@@ -35,13 +37,13 @@ export default function Skills() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
           variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
-          className="flex flex-col gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 gap-5 items-start"
         >
           {skills.map((group) => (
             <motion.div
               key={group.category}
               variants={fadeUp}
-              className="bg-card border border-border rounded-2xl p-6"
+              className="bg-card border border-border rounded-2xl p-6 h-full"
             >
               <h3 className="text-textSecondary text-xs font-semibold uppercase tracking-widest mb-4">
                 {group.category}

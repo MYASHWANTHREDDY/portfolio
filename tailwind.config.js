@@ -4,16 +4,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: '#0f172a',
-        card: '#1e293b',
-        border: '#334155',
-        accent: '#6366f1',
-        sky: '#38bdf8',
-        textPrimary: '#f1f5f9',
-        textSecondary: '#94a3b8',
+        // Warm near-black ground, single signal hue. Deliberately not the
+        // slate-900/indigo-500 default — see the design notes in the README.
+        bg: '#0c0a09',
+        card: '#15120f',
+        border: '#2b2521',
+        accent: '#f0b429',
+        sky: '#e08b3a',
+        textPrimary: '#f6f1e9',
+        textSecondary: '#a49b90',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
       },
     },
   },

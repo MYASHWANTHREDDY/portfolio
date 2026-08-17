@@ -18,7 +18,7 @@ export default function About() {
         className="text-center mb-14"
       >
         <h2 className="section-heading">About Me</h2>
-        <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-6" />
+        <div className="section-rule mx-auto" />
         <p className="text-textSecondary max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
           {personal.bio}
         </p>

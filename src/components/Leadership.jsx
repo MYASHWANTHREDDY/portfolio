@@ -18,7 +18,7 @@ export default function Leadership() {
         className="text-center mb-14"
       >
         <h2 className="section-heading">Leadership & Awards</h2>
-        <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-4" />
+        <div className="section-rule mx-auto" />
         <p className="text-textSecondary">Beyond the code</p>
       </motion.div>
 
