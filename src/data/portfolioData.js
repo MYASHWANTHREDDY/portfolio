@@ -2,7 +2,6 @@ export const personal = {
   name: 'Yashwanth Mallareddygari',
   fullName: 'Yashwanth Reddy Mallareddygari',
   email: 'yashwanthmallareddygari@gmail.com',
-  phone: '+1 (657) 631 1232',
   location: 'Dallas–Fort Worth Metroplex, TX',
   github: 'https://github.com/MYASHWANTHREDDY',
   linkedin: 'https://linkedin.com/in/yashwanthreddymallareddygari',
