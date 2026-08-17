@@ -3,12 +3,13 @@ import { skills } from '../data/portfolioData'
 
 const categoryColors = {
   Languages: 'border-amber-500/40 text-amber-300',
-  Frontend: 'border-sky-500/50 text-sky-400',
-  'Backend & APIs': 'border-emerald-500/40 text-emerald-300',
-  'AI & LLM Systems': 'border-fuchsia-500/40 text-fuchsia-300',
+  'AI, LLM & Optimization': 'border-fuchsia-500/40 text-fuchsia-300',
   'Data Engineering': 'border-purple-500/40 text-purple-300',
-  'Databases & Cloud': 'border-orange-500/40 text-orange-300',
-  'Tools & Testing': 'border-teal-500/40 text-teal-300',
+  'Backend & APIs': 'border-emerald-500/40 text-emerald-300',
+  'Frontend & Mobile': 'border-sky-500/50 text-sky-400',
+  'Databases & Storage': 'border-orange-500/40 text-orange-300',
+  'Cloud & DevOps': 'border-rose-500/40 text-rose-300',
+  'Testing & Observability': 'border-teal-500/40 text-teal-300',
 }
 
 const fadeUp = {

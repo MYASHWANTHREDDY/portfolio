@@ -37,31 +37,35 @@ export const education = [
 export const skills = [
   {
     category: 'Languages',
-    items: ['C++', 'C', 'Python', 'Java', 'JavaScript', 'SQL'],
+    items: ['Python', 'JavaScript', 'SQL', 'C++', 'C', 'Java', 'Bash', 'HTML5', 'CSS3'],
   },
   {
-    category: 'Frontend',
-    items: ['React.js', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'],
-  },
-  {
-    category: 'Backend & APIs',
-    items: ['Flask', 'Node.js', 'Express.js', 'REST APIs', 'JWT', 'RBAC'],
-  },
-  {
-    category: 'AI & LLM Systems',
-    items: ['LangGraph', 'LangChain', 'Claude API', 'MCP', 'RAG', 'ChromaDB', 'Embeddings', 'Pydantic'],
+    category: 'AI, LLM & Optimization',
+    items: ['LangGraph', 'LangChain', 'Claude API', 'MCP', 'RAG', 'ChromaDB', 'Embeddings', 'Pydantic', 'OR-Tools CP-SAT'],
   },
   {
     category: 'Data Engineering',
-    items: ['Apache Kafka', 'Spark Structured Streaming', 'PySpark', 'Airflow', 'dbt', 'Great Expectations', 'DuckDB', 'Apache NiFi'],
+    items: ['Apache Kafka', 'Avro', 'Schema Registry', 'Spark Structured Streaming', 'PySpark', 'Airflow', 'dbt', 'Great Expectations', 'DuckDB', 'Parquet', 'pandas', 'Apache NiFi'],
   },
   {
-    category: 'Databases & Cloud',
-    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'BigQuery', 'Dataproc', 'AWS EC2', 'AWS RDS', 'Docker', 'Terraform'],
+    category: 'Backend & APIs',
+    items: ['Flask', 'FastAPI', 'Node.js', 'Express.js', 'REST APIs', 'SQLAlchemy', 'Alembic', 'JWT', 'RBAC'],
   },
   {
-    category: 'Tools & Testing',
-    items: ['OR-Tools CP-SAT', 'pytest', 'SQLAlchemy', 'Streamlit', 'Tableau', 'Git', 'GitHub Actions', 'Postman'],
+    category: 'Frontend & Mobile',
+    items: ['React 19', 'React Native', 'Expo', 'Vite', 'Tailwind CSS', 'React Router'],
+  },
+  {
+    category: 'Databases & Storage',
+    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'BigQuery', 'Google Cloud Storage', 'Neon'],
+  },
+  {
+    category: 'Cloud & DevOps',
+    items: ['GCP', 'Dataproc Serverless', 'AWS EC2', 'AWS RDS', 'Docker', 'Docker Compose', 'Terraform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
+  },
+  {
+    category: 'Testing & Observability',
+    items: ['pytest', 'respx', 'ruff', 'Prometheus', 'Grafana', 'Streamlit', 'Tableau', 'Postman', 'Git'],
   },
 ]
 
