@@ -103,7 +103,7 @@ export default function Hero() {
         </p>
 
         <h1 className="font-display text-5xl md:text-7xl font-semibold tracking-tight text-textPrimary mb-6 leading-tight">
-          {personal.name}
+          {personal.fullName}
         </h1>
 
         {/* Typing effect */}

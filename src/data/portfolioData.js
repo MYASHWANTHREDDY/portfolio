@@ -5,11 +5,11 @@ export const personal = {
   location: 'Dallas–Fort Worth Metroplex, TX',
   github: 'https://github.com/MYASHWANTHREDDY',
   linkedin: 'https://linkedin.com/in/yashwanthreddymallareddygari',
-  titles: ['Software Engineer', 'AI & LLM Engineer', 'Data Engineer', 'Full Stack Developer'],
+  titles: ['Data Engineer', 'AI & LLM Engineer', 'Software Engineer', 'Full Stack Developer'],
   tagline: [
-    "Software engineer with an MS in Computer Science from Cal State Fullerton.",
+    "Data engineer with an MS in Computer Science from Cal State Fullerton.",
     "I build systems that hold up under measurement — LLM agents, healthcare data infrastructure at multi-million-record scale, and constraint optimizers that ship to real users.",
-    "Actively seeking full-time SWE roles.",
+    "Actively seeking full-time Data Engineering and AI/ML roles.",
   ],
   bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver for 50+ staff. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
 }
@@ -62,7 +62,7 @@ export const skills = [
   },
   {
     category: 'Cloud & DevOps',
-    items: ['GCP', 'Cloud Composer', 'Dataproc Serverless', 'AWS EC2', 'AWS RDS', 'Docker', 'Docker Compose', 'Terraform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
+    items: ['GCP', 'Cloud Composer', 'Dataproc Serverless', 'Docker', 'Docker Compose', 'Terraform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
   },
   {
     category: 'Testing & Observability',
@@ -160,7 +160,7 @@ export const projects = [
     live: 'https://ecommerce-streaming-analytics.streamlit.app',
   },
   {
-    title: 'Automated Work Scheduling Platform',
+    title: 'CSUF Scheduler (Automated Work Scheduling Platform)',
     dates: 'Aug 2025 – May 2026',
     summary: "OR-Tools CP-SAT scheduling that replaced 10+ hours of spreadsheet work with a 30-second solve.",
     description: [
