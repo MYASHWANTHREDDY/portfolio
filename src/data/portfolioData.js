@@ -12,7 +12,7 @@ export const personal = {
     "I build systems that hold up under measurement — LLM agents, healthcare data infrastructure at multi-million-record scale, and constraint optimizers that ship to real users.",
     "Actively seeking full-time SWE roles.",
   ],
-  bio: "MS CS graduate from Cal State Fullerton who builds systems and then proves they work. I've linked 5M patient records on GCP for $78, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver serving 100+ users. The through-line is measurement: every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300 — same obsession with performance, different throttle.",
+  bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP for $78, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver serving 100+ users. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
 }
 
 export const education = [
