@@ -11,7 +11,7 @@ export const personal = {
     "I build systems that hold up under measurement — LLM agents, healthcare data infrastructure at multi-million-record scale, and constraint optimizers that ship to real users.",
     "Actively seeking full-time SWE roles.",
   ],
-  bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP for $78, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver for 50+ staff. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
+  bio: "MS CS graduate from Cal State Fullerton, currently building healthcare data pipelines on Google Cloud as an AI & Full-Stack Development Intern at TMT IT Solutions. I build systems and then prove they work: I've linked 5M patient records on GCP, shipped an LLM screening agent that abstains instead of guessing, and replaced 10+ hours of manual scheduling with a 30-second constraint solver for 50+ staff. The through-line is measurement — every project here publishes its own numbers, including the ones that aren't flattering. Outside the terminal, I'm tuning my Kawasaki Ninja 300: same obsession with performance, different throttle.",
 }
 
 export const education = [
@@ -77,13 +77,13 @@ export const projects = [
     summary: "Fellegi-Sunter record linkage across 4 vendors and 6 data domains, proven on a real 5M-record GCP run.",
     description: [
       'Built a Master Data Management pipeline that resolves one stable patient identifier per real person across 4 vendors and 6 data domains, using Fellegi-Sunter probabilistic record linkage with golden-record survivorship and a full audit trail.',
-      'Ran one codebase at two tiers, unchanged apart from a --tier flag: 50K records locally on DuckDB in ~90 seconds, and a real 5,048,389-record run on GCP (BigQuery + Dataproc Serverless) at 0.965 auto-match precision for ~$78.',
+      'Ran one codebase at two tiers, unchanged apart from a --tier flag: 50K records locally on DuckDB in ~90 seconds, and a real 5,048,389-record run on GCP (BigQuery + Dataproc Serverless) at 0.965 auto-match precision.',
       'Documented six failures that only surfaced at 5M records — including a blocking fix that cut candidate pairs from 647M to 337M, and per-tier threshold re-measurement instead of assuming the 50K threshold transfers.',
     ],
     stats: [
       { value: '5.0M', label: 'Records Linked' },
       { value: '0.965', label: 'Match Precision' },
-      { value: '$78', label: 'Full GCP Run' },
+      { value: '2.56M', label: 'Golden Records' },
     ],
     tech: ['Python', 'BigQuery', 'Dataproc', 'PySpark', 'dbt', 'Airflow', 'Terraform', 'DuckDB', 'Streamlit'],
     github: 'https://github.com/MYASHWANTHREDDY/patient-identity-resolution',
